@@ -1,0 +1,31 @@
+h1{
+    color: white;
+    text-align: center;
+    background-color:   rgb(6,128, 199);
+}
+img{
+    margin-left: 430px;
+}
+nav{
+    text-align: center;
+}
+h2{
+    color: white;
+    background-color: rgb(7, 156, 241);
+}
+h4{
+    color: blue;
+    text-decoration: underline;
+}
+.Resaltado{
+    color: blue;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.Fecha{
+    color: blue;
+    font-weight: bold;
+}
+.Titulo{
+    text-decoration: underline;
+}
