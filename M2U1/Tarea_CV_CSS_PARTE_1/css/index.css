@@ -1,0 +1,49 @@
+h1 {
+    color: white;
+    text-align: center;
+    /* background-color:   rgb(6,128, 199); */
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 9%, rgba(0, 232, 255, 0.8687850140056023) 64%);
+    box-shadow: 4px 2px 38px 1px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 4px 2px 38px 1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 4px 2px 38px 1px rgba(0, 0, 0, 0.75);
+    font-family: 'Cabin', sans-serif;
+}
+
+img {
+    margin-left: 430px;
+    border-radius: 15px;
+}
+
+nav {
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    /* background-color: rgb(7, 156, 241); */
+    background: rgb(34, 193, 195);
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(45, 203, 253, 0.3477766106442577) 100%);
+    font-family: 'Cabin', sans-serif;
+}
+
+h4 {
+    color: blue;
+    text-decoration: underline;
+   
+}
+
+.Resaltado {
+    color: blue;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.Fecha {
+    color: blue;
+    font-weight: bold;
+}
+
+.Titulo {
+    text-decoration: underline;
+}
