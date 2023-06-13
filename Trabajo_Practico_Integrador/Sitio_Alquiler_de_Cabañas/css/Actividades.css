@@ -72,7 +72,7 @@ footer {
 
 
 nav ul li a.activo {
-    background-color:  rgba(93, 134, 180, 0.973);
+    background-color: rgba(93, 134, 180, 0.973);
 }
 
 .holder {
@@ -85,4 +85,36 @@ h2 {
     font-weight: 400;
 }
 
+.Naturaleza {
+    display: flex;
+    justify-content: space-between;
+}
 
+.Actividad {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 24%;
+    text-align: left;
+    padding: 7px;
+    box-sizing: border-box;
+    background-color: rgb(193, 221, 236);
+}
+
+.Actividad h3 {
+    text-align: center;
+    text-shadow: 0px 0px 39px rgba(15,71,210,0.7);
+}
+
+.Actividad img {
+    border-radius: 5px;
+    max-width: 215px;
+    display: block;
+    box-shadow: 0px 3px 21px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 3px 21px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 3px 21px 0px rgba(0, 0, 0, 0.75);
+
+}
+
+.Actividad ul {
+    font-size: 13px;
+}
