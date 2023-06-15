@@ -127,3 +127,10 @@ h3 {
 .Cabañas:nth-child(even) {
     flex-direction: row-reverse;
 }
+
+.img {
+    border-radius: 15px;
+    box-shadow: 0px 3px 21px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 3px 21px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 3px 21px 0px rgba(0, 0, 0, 0.75);
+}

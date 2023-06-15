@@ -73,7 +73,7 @@ footer {
 
 
 nav ul li a.activo {
-    background-color:  rgba(93, 134, 180, 0.973);
+    background-color: rgba(93, 134, 180, 0.973);
 }
 
 .holder {
@@ -84,35 +84,45 @@ nav ul li a.activo {
 h2 {
     color: #3638ad;
     font-weight: 400;
-}   
+}
 
-.Historia{
+.Historia {
     display: flex;
     justify-content: space-between;
     text-align: center;
     width: 100%;
-    
-}
-
-.img{
- width: 23%;
- height: 23%;
- border-radius: 5%;
-
 
 }
 
-.columnas{
+.img {
+    width: 23%;
+    height: 23%;
+    border-radius: 5%;
+    box-shadow: 0px 3px 21px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 3px 21px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 3px 21px 0px rgba(0, 0, 0, 0.75);
+
+
+}
+
+img {
+    border-radius: 15px;
+    box-shadow: 0px 3px 21px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 3px 21px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 3px 21px 0px rgba(0, 0, 0, 0.75);
+}
+
+.columnas {
     display: flex;
     justify-content: space-between;
 }
 
-.ubicacion{
+.ubicacion {
     width: 35%;
-    
+
 }
 
-.Mapa{
+.Mapa {
     width: 65%;
     text-align: center;
 }
