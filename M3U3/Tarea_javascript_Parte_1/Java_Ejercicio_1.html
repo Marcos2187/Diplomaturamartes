@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio_1 </title>
+
+</head>
+
+<body>
+
+    <script>
+
+        const distancia = 10000;
+        let medio = '';
+
+        if (distancia > 0 && distancia <= 1000) {
+            medio = 'pie';
+        } else if (distancia > 1000 && distancia <= 10000) {
+            medio = 'bicicleta';
+        } else if (distancia > 10000 && distancia <= 30000) {
+            medio = 'colectivo';
+        } else if (distancia > 30000 && distancia <= 100000) {
+            medio = 'auto';
+        } else if (distancia > 100000) {
+            medio = 'avion';
+        }
+
+        console.log ( `Para ${distancia} metros deberiamos ir en ${medio}`); 
+        document.write ( `Para ${distancia} metros deberiamos ir en ${medio}`);
+        console.log (  'Para ' + distancia , 'deberiamos ir en ' + medio );
+        document.write (  'Para ' + distancia , ' deberíamos ir en ' + medio );
+
+
+    </script>
+
+
+
+
+</body>
+
+
+
+
+</html>
