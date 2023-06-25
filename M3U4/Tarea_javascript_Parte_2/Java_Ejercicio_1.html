@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio_1</title>
+    <link rel="stylesheet" href="java_Ejercicio_1.css">
+
+</head>
+
+
+
+<body>
+
+    <div class="contenedor">
+        <div class="cuadrado rojo" onclick="CambiarFondo('red')"></div>
+        <div class="cuadrado verde" onclick="CambiarFondo('green')"></div>
+        <div class="cuadrado azul" onclick="CambiarFondo('blue')"></div>
+    </div>
+
+    <script>
+        function CambiarFondo(color) {
+            document.querySelector('body').style.background = color;
+        }
+
+    </script>
+
+</body>
+
+
+</html>
